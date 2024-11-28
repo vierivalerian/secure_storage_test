@@ -1,0 +1,106 @@
+
+.navbar{
+    /* background: red; */
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 9px 2px #888888;
+    padding: 0px 10px;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar #logo{
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0px 10px;
+    font-family: roboto;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 8px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: poppins;
+}
+
+#hamburger{
+    display: none;
+}
+#burgerbtn{
+    font-size: 3rem;
+    display: none;
+    border: 1px solid;
+    height: 40px;
+    align-items: center;
+    width: 50px;
+    justify-content: center;
+    border-radius: 15%;
+    border-color: #888888;
+    cursor: pointer;
+}
+.navrespon{
+    margin-left: -10px;
+    padding-left: 20px;
+    background: white;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    box-shadow: 0px 10px 9px -3px #888888;
+}
+.navrespon a{
+    margin-bottom: 10px;
+}
+.ddatas{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+a{
+    color: black;
+}
+
+#segitiga, #tri, #userlogged { 
+    display: none;
+}
+
+
+#LogOut {
+    display: none;
+    position: absolute;
+    margin-top: 90px;
+    margin-right: 100px;
+    padding: 12px 0px;
+    text-align: left;
+    padding-left: 5px !important;
+    padding-right: 60px !important;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+@media screen and (max-width:600px) {
+    #burgerbtn{
+        display:flex;
+    }
+    .kanan{
+        display: none;
+    }
+    .catabout{
+        display: none;
+    }
+    #hamburger:checked ~ .navrespon{
+        display: flex;
+    }
+    #logo { 
+        font-size: 25px;
+    }
+}

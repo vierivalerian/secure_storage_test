@@ -1,0 +1,60 @@
+/* body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.aucontainer { 
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aubox { 
+    width: 800px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    box-shadow: 0px 2px 8px 9px #8889;
+}
+
+#autitle{
+    font-size: 24pt;
+    padding: 15px;
+}
+
+.aubox2 { 
+    background-color: white;
+    margin: auto;
+    width: 97%;
+    height: 320px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    box-shadow: 0px 2px 4px 5px #8889;
+}
+
+#isibox{
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.aubox2 h1{
+    padding: 10px;
+    font-weight: 100;
+}
+
+#nohp{
+    padding: 10px;
+}
+
+#email{
+    padding: 10px;
+}

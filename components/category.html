@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wear House - Category</title>
+    <link rel="stylesheet" href="../assets/category/css/category.css">
+    <link rel="stylesheet" href="../assets/navbar.css">
+    <link rel="stylesheet" href="../assets/footer.css">
+    <link rel="stylesheet" href="../assets/global.css">
+    <script src="../script/jquery.js"></script>
+    <script>
+        if (localStorage.getItem('userId') == null){
+            window. window.location.href = 'home.html';
+        };
+    </script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="kiri">
+            <ul>
+                <a href="./home.html" id="logo">WearHouse</a>
+                <div class="catabout">
+                    <li><a href="./category.html">Category</a></li>
+                    <li><a href="./aboutUs.html">About Us</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="kanan">
+            <ul>
+                <li><input type="checkbox" id="tri"></li>
+                <li><p id="userlogged"></p></li>
+                <li><label for="tri" id="segitiga">▼</label></li>
+                <button id="LogOut" onclick="doLogOut()">LogOut</button>
+                <div id="loginRegister">
+                    <li><a href="./login.html">Login</a></li>
+                    <li><a href="./register.html">Register</a></li>
+                </div>
+            </ul>  
+        </div>
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" id="burgerbtn">&equiv;</label>
+
+        <!-- Navbar Responsiv -->
+        <div class="navrespon">
+            <div class="ddatas">
+                <a href="./category.html">category</a>
+                <a href="./aboutUs.html">About Us</a>
+            </div>
+            <a href="./login.html">Login</a>
+            <a href="./register.html">Register</a>
+        </div>
+    </nav>
+
+    <!-- content -->
+    <div class="popup" id="popUpID">
+        <div class="popupbox">
+            <div class="boxin">
+                <div class="boxheader">
+                    <p class="poptitle">Add Category</p>
+                    <button class="closebtn"  onclick="tombolClose()">&times;</button>
+                </div>
+                <div class="catmid">
+                    <p id="isimid">Category</p>
+                    <input type="text" id="boxInput">
+                </div>
+                <div class="btnSubmit">
+                    <button id="addsub" onclick="addcategory()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup2" id="popUpID2">
+        <div class="popupbox2">
+            <div class="boxin2">
+                <div class="boxheader2">
+                    <p class="poptitle2">Edit Category</p>
+                    <button class="closebtn2"  onclick="tombolClose()">&times;</button>
+                </div>
+                <div class="catmid2">
+                    <p id="isimid2">Category</p>
+                    <input type="text" id="boxInput2">
+                </div>
+                <div class="btnSubmit2">
+                    <button id="editsub" onclick="EditCat()">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup3" id="popUpID3">
+        <div class="popupbox3">
+            <div class="boxin3">
+                <div class="boxheader3">
+                    <p class="poptitle3">Delete Category</p>
+                    <button class="closebtn3"  onclick="tombolClose()">&times;</button>
+                </div>
+                <div class="catmid3">
+                    <p id="isimid3">This action is irreversible! Are you sure want to delete this<br>
+                    category?.</p>
+                </div>
+                <div class="btnDelete">
+                    <button id="dltRow" onclick="DeleteCat()">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catcontainer" id="userCategory">
+        <div class="catBox">
+            <p id="judulbox">Product Category</p>
+            <button class="addcat" id="btnCat" onclick="add()">Add Category</button>
+            <div class="isicat">
+                <table class="tabel">
+                    <tr>
+                        <th>No.</th>
+                        <th>Category</th>
+                        <th>Action</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="catcontainer" id="adminCategory">
+        <div class="catBox">
+            <p id="judulbox">Product Category</p>
+            <div class="isicat">
+                <table class="tabel">
+                    <tr>
+                        <th>No.</th>
+                        <th>Category</th>
+                        <th>Owner</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footercontent">
+            <div class="icons">
+                <a href="#"><img src="../assets/category/img/bxl-twitter.svg"></a>
+                <a href="#"><img src="..//assets/category/img/bxl-facebook.svg"></a>
+                <a href="#"><img src="../assets/category/img/bxl-instagram.svg"/></i></a>
+            </div>
+            <div class="text">
+                <p>Copyright @ 2024 Secure Programming. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="../script/status.js"></script>
+<script src="../script/category.js"></script>
+</html>

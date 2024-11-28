@@ -1,0 +1,114 @@
+/* body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.loginContainer { 
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBox { 
+    width: 800px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    box-shadow: 0px 2px 8px 9px #8889;
+}
+
+.loginBox2 { 
+    background-color: white;
+    width: 770px;
+    height: 320px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+    
+}
+ 
+.loginTitle {
+    background-color: #E8E9EB;
+    width: 100%;
+    height: 50px; 
+    border-bottom: 1px solid; 
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.loginTitle p {
+    font-size: 18px;
+}
+
+.inputanLogin { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    font-size: 20px;
+}
+
+.emailset{
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -150px;
+}
+
+.passwordset{
+    margin-left: -110px;
+}
+
+#email{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+#password{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.rememberme{
+    margin-top: 10px;
+    margin-left: -120px;
+}
+
+#rm{
+    font-size: 15px;
+}
+
+.loginbawah{
+    margin-top: 10px;
+}
+
+.loginbtn{
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 10px;
+    border-color: white;
+    background-color: #1E90FF;
+    color: white;
+    cursor: pointer;
+}
+
+.forgot{
+    font-size: 15px;
+    padding-left: 10px;
+}

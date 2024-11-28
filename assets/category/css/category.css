@@ -1,0 +1,347 @@
+/* body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+.popup{
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupbox { 
+    width: 600px;
+    height: 270px;
+    flex-direction: column;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0px 1px 13px 7px #8889;
+}
+
+.boxin{
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+}
+
+.boxheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid;
+}
+
+.catmid { 
+    padding: 20px;
+    border-bottom: 0.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.catmid input { 
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.btnSubmit { 
+    width: 100%;
+    height: 26%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.btnSubmit button { 
+    border: none;
+    width: 90px;
+    height: 100%;
+    background-color: rgb(7, 133, 7);
+    color: white;
+    border-radius: 5px;
+}
+
+.closebtn{
+    font-size: 30px;
+    width: 30px;
+    background: none;
+    border-color: transparent;
+}
+
+.popup2{
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupbox2 { 
+    width: 600px;
+    height: 270px;
+    flex-direction: column;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0px 1px 13px 7px #8889;
+}
+
+.boxin2{
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+}
+
+.boxheader2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid;
+}
+
+.catmid2 { 
+    padding: 20px;
+    border-bottom: 0.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.catmid2 input { 
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.btnSubmit2 { 
+    width: 100%;
+    height: 26%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.btnSubmit2 #editsub{ 
+    border: none;
+    width: 90px;
+    height: 100%;
+    background-color: rgb(7, 133, 7);
+    color: white;
+    border-radius: 5px;
+}
+
+.closebtn2{
+    font-size: 30px;
+    width: 30px;
+    background: none;
+    border-color: transparent;
+}
+
+.popup3{
+    position: absolute;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupbox3{ 
+    width: 600px;
+    height: 270px;
+    flex-direction: column;
+    border: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 0px 1px 13px 7px #8889;
+}
+
+.boxin3{
+    background-color: white;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid;
+}
+
+.boxheader3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid;
+}
+
+.catmid3{ 
+    padding: 20px;
+    border-bottom: 0.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#isimid3{
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.btnDelete { 
+    width: 100%;
+    height: 26%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.btnDelete #dltRow{ 
+    border-color: white;
+    width: 90px;
+    height: 100%;
+    background-color: rgb(235, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.closebtn3{
+    font-size: 30px;
+    width: 30px;
+    background: none;
+    border-color: transparent;
+}
+.catcontainer { 
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.catBox { 
+    width: 800px;
+    height: 400px;
+    flex-direction: column;
+    border: 1px;
+    box-shadow: 0px 1px 13px 7px #8889;
+}
+
+#judulbox{
+    font-size: 15pt;
+    margin: 10px;
+}
+
+.addcat{
+    font-size: 12pt;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    background-color: #1E90FF;
+    box-shadow: none;
+}
+ 
+.isicat{
+    background-color: white;
+    width: 780px;
+    height: 280px; 
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 15px 3px #8889;
+    overflow-y: auto;
+}
+
+.tabel{
+    border-collapse: collapse;
+    width: 95%;
+    height: 20px    ;
+}
+
+.tabel tr { 
+    height: 2px     ;
+}
+
+.tabel td th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.tabel tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabel tr:hover {background-color: #ddd;}
+
+.tabel th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+}
+
+#editbtn{
+    color: white;
+    border-color: white;
+    background-color: #f4a913;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#dltbtn{
+    color: white;
+    border-color: white;
+    background-color: #df1818;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
